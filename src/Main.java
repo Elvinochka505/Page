@@ -5,13 +5,13 @@ public class Main {
         int amount = 300;
         int plus = 1_100;
         int bonus;
-        if (plus >= 1000) {
+        if (plus > 1000) {
             bonus = plus / 100;
         } else {
             bonus = 0;
-    }
+        }
 
         System.out.println(bonus);
-        System.out.println (amount+plus+bonus);
+        System.out.println(amount + plus + bonus);
     }
 }
